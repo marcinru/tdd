@@ -13,13 +13,13 @@ test('2001 is not leap year', () => {
 })
 
 test('2004 is leap year', () => {
-    expect(isLeapYear(2000)).toBe(true)
+    expect(isLeapYear(2004)).toBe(true)
 })
 
 test('2049 is not leap year', () => {
-    expect(isLeapYear(2001)).toBe(false)
+    expect(isLeapYear(2049)).toBe(false)
 })
 
 test('2080 is leap year', () => {
-    expect(isLeapYear(2000)).toBe(true)
+    expect(isLeapYear(2080)).toBe(true)
 })
