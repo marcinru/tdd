@@ -10,7 +10,12 @@ const lyrics = [
   "For me and you",
 ];
 
-log("🎹");
+log("  o    ______________");
+log(" /\_  _|             |");
+log("_\__`[_______________|");
+log("] [ \, ][         ][");
+console.log("🎹");
+
 let i = 0;
 const interval = setInterval(() => {
   if (i === lyrics.length - 1) {
