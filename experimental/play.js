@@ -7,14 +7,14 @@ const lyrics = [
   styleText("green", "trees of green\n"),
   `${styleText("red", "Red roses")}🌹 too\n`,
   `I see them ${styleText("bgBlue", " bloom ")}🌸\n`,
-  "For me and you",
+  "For me and you\n\n",
 ];
 
+console.clear();
 log("  o    ______________");
 log(" /\_  _|             |");
 log("_\__`[_______________|");
-log("] [ \, ][         ][");
-console.log("🎹");
+log("] [ \, ][         ][\n");
 
 let i = 0;
 const interval = setInterval(() => {
