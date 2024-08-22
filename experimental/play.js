@@ -2,6 +2,12 @@ import { styleText } from "node:util";
 import { stdout } from "node:process";
 import { log } from "node:console";
 
+console.clear();
+log("  o    ______________ ");
+log(" /\_  _|             |");
+log("_\__`[_______________|");
+log("] [ \, ][         ][\n");
+
 const lyrics = [
   "I see 🌳 ",
   styleText("green", "trees of green\n"),
@@ -9,12 +15,6 @@ const lyrics = [
   `I see them ${styleText("bgBlue", " bloom ")}🌸\n`,
   "For me and you\n\n",
 ];
-
-console.clear();
-log("  o    ______________");
-log(" /\_  _|             |");
-log("_\__`[_______________|");
-log("] [ \, ][         ][\n");
 
 let i = 0;
 const interval = setInterval(() => {
