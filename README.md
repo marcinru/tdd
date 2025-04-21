@@ -7,7 +7,7 @@ Note that displaying emoji doesn't work in all terminals. For Windows emoji to w
 
 ## Setup
 1. Clone this repo
-2. `npm install` or `yarn`
+2. `npm install` or `npm i`
 
 ## Run
 `npm test` or `npm t`
