@@ -9,5 +9,11 @@ Note that displaying emoji doesn't work in all terminals. For Windows emoji to w
 1. Clone this repo
 2. `npm install` or `npm i`
 
-## Run
+## Run all tests
 `npm test` or `npm t`
+
+## Run a single test
+`npm test -- -t "nameOfTheTest"`
+
+## Run a function
+`node .\path\to\theFile.js`
